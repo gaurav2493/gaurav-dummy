@@ -1,0 +1,22 @@
+{
+  "name": "@gaurav2493/gaurav-dummy",
+  "version": "1.0.0",
+  "description": "Dummy package for testing private GitHub npm registry with Windmill",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaurav2493/gaurav-dummy.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
