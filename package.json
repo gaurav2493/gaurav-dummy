@@ -1,6 +1,6 @@
 {
   "name": "@gaurav2493/gaurav-dummy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dummy package for testing private GitHub npm registry with Windmill",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
